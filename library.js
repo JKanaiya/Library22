@@ -137,4 +137,6 @@ function createBookForm() {
   form.appendChild(buttonDiv);
   shelf.insertBefore(form, add);
 }
+let addCircle = document.getElementById("addCircle");
+addCircle.addEventListener("click", () => createBookForm());
 window.onload = (event) => display();
